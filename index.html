@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 16</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="page">
+				<section class="page__section main-block">
+					<div class="main-block__container">
+						<div class="main-block__content content-main">
+							<div class="content-main__image">
+								<img src="img/illustration.svg" alt="picture">
+							</div>
+							<div class="content-main__body body-content">
+								<div class="body-content__header titles">
+									<h3 class="titles__subtitle">Any questions?</h3>
+									<h2 class="titles__title">Drop us a line</h2>
+								</div>
+								<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form__block">
+									<div class="form__line">
+										<label for="first_name" class="form__label">First Name*</label>
+										<input id="first_name" type="text" name="name" class="form__input" placeholder="Your first name" autocomplete="off">
+									</div>
+									<div class="form__line">
+										<label for="last_name" class="form__label">Last Name*</label>
+										<input id="last_name" type="text" name="last_name" class="form__input" placeholder="Your last name" autocomplete="off">
+									</div>
+									<div class="form__line">
+										<label for="email" class="form__label">Email*</label>
+										<input id="email" type="email" name="email" class="form__input" placeholder="Your working email" autocomplete="off">
+									</div>
+									<div class="form__line">
+										<label for="phone" class="form__label">Phone*</label>
+										<input id="phone" type="tel" name="number" class="form__input" placeholder="Your phone number" autocomplete="off">
+									</div>
+									<div class="form__line form__line--area">
+										<label for="message" class="form__label-message">Message*</label>
+										<textarea name="message" id="message" class="form__area" placeholder="Your message"></textarea>
+									</div>
+									<div class="form__line check">
+										<input id="agree" name="agree" value="yes" type="checkbox" class="check__input">
+										<label for="agree" class="check__label"><span class="check__span">I agree to receive communications from Createx Online School</span></label>
+									</div>
+									<div class="form__line">
+										<button type="submit" class="form__button button">
+											<span class="button__span">Send message</span>
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__section subscribe-block">
+					<div class="subscribe-block__container">
+						<div class="subscribe-block__content content-subscribe">
+							<div class="content-subscribe__header titles">
+								<h3 class="titles__subtitle">Don’t miss anything</h3>
+								<h2 class="titles__title">Subscribe to the Createx School announcements</h2>
+							</div>
+							<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="content-subscribe__form form-subscribe">
+								<div class="form-subscribe__line form-subscribe__line--input">
+									<input type="email" required autocomplete="off" placeholder="Your working email" name="email" class="form-subscribe__input">
+								</div>
+								<div class="form-subscribe__line">
+									<button type="submit" class="form-subscribe__button button"><span>Subscribe</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="subscribe-block__decor decor">
+						<div class="decor__item decor__item--left"></div>
+						<div class="decor__item decor__item--right"></div>
+					</div>
+				</section>
+				<section class="page__section register-block">
+					<div class="register-block__container">
+						<div class="register-block__content content-register">
+							<div class="content-register__image">
+								<img src="img/register/illustration.svg" alt="picture">
+							</div>
+							<div class="content-register__body body-register">
+								<div class="body-register__header titles">
+									<h3 class="titles__subtitle">Leave a request now and get 20% off!</h3>
+									<h2 class="titles__title">Register for the course</h2>
+								</div>
+								<form action="#" method="post" class="body-register__form form-register">
+									<div class="form-register__line">
+										<label for="name" class="form-register__label">Full Name</label>
+										<input id="name" type="text" name="name" placeholder="Your full name" class="form-register__input">
+									</div>
+									<div class="form-register__line">
+										<label for="email_1" class="form-register__label">Email</label>
+										<input type="email" name="email" id="email_1" placeholder="Your working email" class="form-register__input">
+									</div>
+									<div class="form-register__line">
+										<label for="phone_1" class="form-register__label">Phone</label>
+										<input type="tel" name="phone" id="phone_1" placeholder="Your phone number" class="form-register__input">
+									</div>
+									<div class="form-register__line">
+										<button class="form-register__button button">
+											<span>Join the course</span>
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__section newsletter-block">
+					<div class="newsletter-block__container">
+						<div class="newsletter-block__content content-newsletter">
+							<div class="content-newsletter__image">
+								<img src="img/newsletter/illustration.svg" alt="picture">
+							</div>
+							<div class="content-newsletter__body body-newsletter">
+								<h2 class="body-newsletter__title">Don’t want to miss the best events?
+									Subscribe to our newsletter!</h2>
+								<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="body-newsletter__form form-subscribe">
+									<div class="form-subscribe__block">
+										<div class="form-subscribe__line form-subscribe__line--input">
+											<input type="email" required autocomplete="off" placeholder="Your working email" name="email" class="form-subscribe__input">
+										</div>
+										<div class="form-subscribe__line">
+											<button type="submit" class="form-subscribe__button button"><span>Subscribe</span></button>
+										</div>
+									</div>
+									<div class="form-subscribe__line check form-subscribe__line--check">
+										<input id="yes" name="agree" value="yes" type="checkbox" class="check__input">
+										<label for="yes" class="check__label"><span class="check__span">I agree to receive communications from Createx Online School</span></label>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__section request-block">
+					<div class="request-block__container">
+						<div class="request-block__content content-request">
+							<div class="content-request__body body-request">
+								<div class="body-request__header titles">
+									<h3 class="titles__subtitle">Leave a request now and get 20% off!</h3>
+									<h2 class="titles__title">Register for the course</h2>
+								</div>
+								<form action="#" method="post" class="body-request__form form-register body-request__form--margin">
+									<div class="form-register__line">
+										<label for="name_1" class="form-register__label">Full Name</label>
+										<input id="name_1" type="text" name="name" placeholder="Your full name" class="form-register__input form-register__input--border">
+									</div>
+									<div class="form-register__line">
+										<label for="email_2" class="form-register__label">Email</label>
+										<input type="email" name="email" id="email_2" placeholder="Your working email" class="form-register__input form-register__input--border">
+									</div>
+									<div class="form-register__line">
+										<label for="phone_2" class="form-register__label">Phone</label>
+										<input type="tel" name="phone" id="phone_2" placeholder="Your phone number" class="form-register__input form-register__input--border">
+									</div>
+									<div class="form-register__line">
+										<button class="form-register__button button">
+											<span>Join the course</span>
+										</button>
+									</div>
+								</form>
+								<div class="body-request__text">
+									* You will receive a link to the online lecture in an email after registration.
+								</div>
+							</div>
+							<div class="content-request__image">
+								<img src="img/request/illustration.svg" alt="picture">
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
